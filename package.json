@@ -9,6 +9,12 @@
   },
   "author": "jibhaine",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jibhaine/dubsiren.git"
+  },
+  "homepage": "https://github.com/jibhaine/dubsiren",
+  "bugs": "https://github.com/jibhaine/dubsiren/issues",
   "devDependencies": {
     "electron-packager": "^5.0.1",
     "electron-prebuilt": "^0.30.4"
