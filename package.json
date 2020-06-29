@@ -1,27 +1,47 @@
 {
-  "name": "dubsiren",
-  "version": "1.0.0",
-  "description": "A Dub Siren desktop app using Electron",
-  "main": "main.js",
+  "name": "dubsiren2",
+  "version": "0.0.0",
   "scripts": {
-    "start": "electron .",
-    "test": "mocha"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "author": "jibhaine",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jibhaine/dubsiren.git"
-  },
-  "homepage": "https://github.com/jibhaine/dubsiren",
-  "bugs": "https://github.com/jibhaine/dubsiren/issues",
+  "private": true,
   "dependencies": {
-    "flux": "^2.0.3",
-    "lodash": "^3.10.1",
-    "react": "^0.13.3"
+    "@angular/animations": "~10.0.1",
+    "@angular/common": "~10.0.1",
+    "@angular/compiler": "~10.0.1",
+    "@angular/core": "~10.0.1",
+    "@angular/forms": "~10.0.1",
+    "@angular/platform-browser": "~10.0.1",
+    "@angular/platform-browser-dynamic": "~10.0.1",
+    "@angular/router": "~10.0.1",
+    "rxjs": "~6.5.5",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.4"
+    "@angular-devkit/build-angular": "~0.1000.0",
+    "@angular/cli": "~10.0.0",
+    "@angular/compiler-cli": "~10.0.1",
+    "@angular/language-service": "~10.0.1",
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "codelyzer": "^5.1.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~5.0.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~3.3.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.9.5"
   }
 }
