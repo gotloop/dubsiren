@@ -1,6 +1,27 @@
-# Dubsiren2
+# gotloop/dubsiren
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## What's this
+
+It's a dub siren : https://en.wikipedia.org/wiki/Dub_siren
+To put it simple, it's the implementation of an analog device which has very few features :
+* A trigger button to activate sound generation.
+* Potentiometers to set frequency, rate, volume and pitch of the sound.
+
+
+## Project Goals
+
+Teach myself this tech stack :
+* [Akita](https://facebook.github.io/flux/)
+* [Tauri](http://electron.atom.io/)
+* [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+
+## How to install
+
+You need to have [Node.js](https://nodejs.org/) installed.
+
+Then a simple :
+
+  npm install; npm start
 
 ## Development server
 
